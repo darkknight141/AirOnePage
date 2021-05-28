@@ -1,0 +1,111 @@
+/*@media only screen and (max-width: 1366px) {
+    .header ul {
+        font-size: 70%;
+    }
+}
+@media only screen and (max-width: 1235px) {
+    .header ul {
+        font-size: auto;
+    }
+    .logo img {
+        height: 16px;
+        margin-left: auto;
+    }
+}
+@media only screen and (max-width: 1108px) {
+    .menu-nav li {
+        margin-right: 20px;
+    }
+    .container8 .crbody {
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 943px) {
+    .menu-nav li {
+        margin-right: 10px;
+    }
+    .container8 .crbody {
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width: 887px) {
+    .menu-nav li {
+        margin-right: 5px;
+    }
+}
+@media only screen and (max-width: 990px) {
+    .menu-nav li a {
+        font-size: 60%;
+    }
+    .logo img {
+        margin-left: 40px;
+    }
+    .container7 .btn {
+        font-size: 10px;
+        width: 31%;
+    }
+}
+
+@media only screen and (max-width: 860px) {
+    .container1 {
+        font-size: 75%;
+    }
+    .block {
+        font-size: 60%;
+    }
+    .copy {
+        font-size: 80%;
+    }
+    .light-logo {
+        margin-left: 3%;
+        padding-top: 1%;
+    }
+    .container7 .btn {
+        font-size: 10px;
+        width: 42%;
+    }
+}*/
+
+
+/*------------------------------------------
+  Responsive Grid Media Queries - 1280, 1024, 768, 480
+   1280-1024   - desktop (default grid)
+   1024-768    - tablet landscape
+   768-480     - tablet 
+   480-less    - phone landscape & smaller
+--------------------------------------------*/
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container8 .crbody {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+    .menu-nav li {
+        margin-right: 20px;
+    }
+    .container8 .crbody {
+        padding-left: 100px;
+        padding-bottom: 50px;
+    }
+}
+
+@media all and (max-width: 480px) {}
+
+
+/*IPAD LANDSCAPE*/
+
+@media screen and (min-device-width: 481px) and (orientation:landscape) {
+    .container8 .crbody {
+        padding-left: 0px;
+        padding-bottom: 0px;
+    }
+}
